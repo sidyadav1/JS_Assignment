@@ -3,6 +3,8 @@
 // Danny is dancing → aacdDgiinnnnsy
 
 const string = "Danny is dancing";
+
+// Splitting characters by zero or more spaces
 const characters = string.split(/[ ]*/);
 characters.sort((a, b) => {
   return a.localeCompare(b);
