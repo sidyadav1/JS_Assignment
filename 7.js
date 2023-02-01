@@ -3,7 +3,7 @@ console.log(0 / 0 == 0 / 0);
 console.log(Number.isNaN(0 / 0) === Number.isNaN(0 / 0));
 
 // console.log(0 / 0 === 0 / 0); => false
-// According to ecma is NaN is present on either side of strict equality operator (===)
+// According to ecma if NaN is present on either side of strict equality operator (===)
 // then false will be returned
 // https://262.ecma-international.org/5.1/
 
