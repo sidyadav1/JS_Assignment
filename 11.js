@@ -15,8 +15,9 @@ const operations = {
   "/": (a, b) => a / b,
 };
 
-const string = "3/2";
-const [a, b] = string.split(/[\+|-|\*|/]/);
+const string = "    3 /         2";
+const [a, b] = string.trim().split(/\s+[\+|-|\*|/]\s+/);
+console.log(a, b);
 const sign = string.match(/[\+|-|\*|/]/)[0];
 const signs = ["+", "-", "*", "/"];
 
